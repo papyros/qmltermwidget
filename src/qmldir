@@ -1,4 +1,3 @@
-module QMLTermWidget
+module Papyros.Terminal
 plugin qmltermwidget
 QMLTermScrollbar 1.0 QMLTermScrollbar.qml
-

@@ -11,7 +11,8 @@ using namespace Konsole;
 
 void QmltermwidgetPlugin::registerTypes(const char *uri)
 {
-    // @uri org.qterminal.qmlterminal
+    // @uri Papyros.Terminal
+    
     qmlRegisterType<TerminalDisplay>(uri, 1, 0, "QMLTermWidget");
     qmlRegisterType<KSession>(uri, 1, 0, "QMLTermSession");
 }

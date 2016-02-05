@@ -36,7 +36,7 @@ QMAKE_POST_LINK = $(COPY_DIR) $$PWD/lib/color-schemes $$DESTDIR && \
 #########################################
 
 INSTALL_DIR = $$[QT_INSTALL_QML]
-PLUGIN_IMPORT_PATH = QMLTermWidget
+PLUGIN_IMPORT_PATH = Papyros/Terminal
 PLUGIN_ASSETS = $$PWD/src/QMLTermScrollbar.qml \
                 $$PWD/lib/kb-layouts \
                 $$PWD/lib/color-schemes
