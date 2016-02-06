@@ -2562,6 +2562,11 @@ void TerminalDisplay::setSelection(const QString& t)
   QApplication::clipboard()->setText(t, QClipboard::Selection);
 }
 
+void TerminalDisplay::clearSelection()
+{
+    _screenWindow->clearSelection();
+}
+
 void TerminalDisplay::copyClipboard()
 {
   if ( !_screenWindow )

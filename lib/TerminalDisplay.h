@@ -457,6 +457,8 @@ public:
     // of the character at that point.
     void getCharacterPosition(const QPoint &widgetPoint, int& line, int& column) const;
 
+    bool hasSelection() const;
+
 public slots:
 
     /**
@@ -561,7 +563,7 @@ public slots:
     void simulateMouseRelease(int x, int y, int button, int buttons, int modifiers);
     void simulateMouseDoubleClick(int x, int y, int button, int buttons, int modifiers);
 
-    bool hasSelection() const;
+    void clearSelection();
 
 signals:
 
