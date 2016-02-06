@@ -2873,7 +2873,6 @@ void TerminalDisplay::bell(const QString& message)
 
 void TerminalDisplay::selectionChanged()
 {
-    qDebug() << "Selection changed" << hasSelection();
     emit copyAvailable(hasSelection());
 }
 
